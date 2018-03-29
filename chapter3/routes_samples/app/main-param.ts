@@ -9,7 +9,7 @@ import {platformBrowserDynamic} from "@angular/platform-browser-dynamic";
 
 const routes: Routes = [
     {path: '',        component: HomeComponent},
-    {path: 'product/:id', component: ProductDetailParamComponent}
+    {path: 'product/:id', component: ProductDetailParamComponent, data: [{isProd: true}]}
 ];
 
 
