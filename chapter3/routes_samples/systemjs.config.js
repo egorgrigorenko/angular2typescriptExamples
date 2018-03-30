@@ -11,7 +11,7 @@ System.config({
         '@angular/*': {'format': 'cjs'}
     },
     packages: {
-        'app'                              : {main: 'main-child', defaultExtension: 'ts'},
+        'app'                              : {main: 'main-with-guard', defaultExtension: 'ts'},
         'rxjs'                             : {main: 'Rx'},
         '@angular/core'                    : {main: 'bundles/core.umd.min.js'},
         '@angular/common'                  : {main: 'bundles/common.umd.min.js'},
